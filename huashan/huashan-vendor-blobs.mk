@@ -306,7 +306,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
     vendor/sony/huashan/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
     vendor/sony/huashan/proprietary/lib/modules/texfat.ko:system/lib/modules/texfat.ko
-
+    
+PRODUCT_COPY_FILES += \
+    vendor/sony/huashan/proprietary/framework/com.sonyericsson.sysmon.jar:system/bin/com.sonyericsson.sysmon.jar
+    
 PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/wipedata:system/bin/wipedata
 
