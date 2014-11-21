@@ -16,8 +16,11 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/sony/huashan/proprietary/bin/backend.tar:system/bin/backend.tar \
     vendor/sony/huashan/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/sony/huashan/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
+    vendor/sony/huashan/proprietary/bin/e2fsck:system/bin/e2fsck \
+    vendor/sony/huashan/proprietary/bin/efsks:system/bin/efsks \
     vendor/sony/huashan/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/huashan/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/huashan/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
@@ -31,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/bin/qcks:system/bin/qcks \
     vendor/sony/huashan/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/huashan/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/sony/huashan/proprietary/bin/radish:system/bin/radish \
     vendor/sony/huashan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/huashan/proprietary/bin/secchand:system/bin/secchand \
     vendor/sony/huashan/proprietary/bin/system_monitor:system/bin/system_monitor \
@@ -199,7 +201,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/huashan/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/huashan/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
-    vendor/sony/huashan/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/sony/huashan/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/sony/huashan/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
     vendor/sony/huashan/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/sony/huashan/proprietary/lib/libqdi.so:system/lib/libqdi.so \
@@ -283,8 +285,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/huashan/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
     vendor/sony/huashan/proprietary/lib/modules/cfg80211.ko:system/lib/modules/cfg80211.ko \
     vendor/sony/huashan/proprietary/lib/modules/control_trace.ko:system/lib/modules/control_trace.ko \
-    vendor/sony/huashan/proprietary/lib/modules/cpufreq_lionheart.ko:system/lib/modules/cpufreq_lionheart.ko \
-    vendor/sony/huashan/proprietary/lib/modules/cpufreq_wheatley.ko:system/lib/modules/cpufreq_wheatley.ko \
     vendor/sony/huashan/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
     vendor/sony/huashan/proprietary/lib/modules/eeprom_93cx6.ko:system/lib/modules/eeprom_93cx6.ko \
     vendor/sony/huashan/proprietary/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko \

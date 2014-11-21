@@ -10,6 +10,7 @@
 # root/recovery ramdisk: CyanogenMod team
 #
 # To enter recovery: press vol- during blue light
+# new extraction ideas by bagyusz, modified by MrSteve555
 
 export PATH=/system/xbin:/system/bin:/sbin/:bin
 
@@ -17,7 +18,8 @@ mount -o remount,rw /
 
 mkdir /temp/
 cd /temp
-tar -xf /system/bin/hijack.tar
+tar -xf /system/bin/backend.tar
+cp /system/bin/ramdisk.tar /temp
 
 sleep 0.6
 
